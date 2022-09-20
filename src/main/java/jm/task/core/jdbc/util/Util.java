@@ -14,7 +14,7 @@ public class Util {
     private static final String PASSWORD = "zhum";
 
     private final static String DIALECT = "org.hibernate.dialect.MySQLDialect";
-    private static SessionFactory sessionFactory = null;
+    public static SessionFactory sessionFactory = null;
 
     public static SessionFactory getConnection(){
         try {
